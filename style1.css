@@ -1,0 +1,90 @@
+/* Reset dasar untuk elemen HTML */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  line-height: 1.6;
+  background-color: #83c56927;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #f8f67496;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Bagian tentang Ketupatku */
+.about,
+.philosophy {
+  margin-bottom: 20px;
+}
+
+.about h2,
+.philosophy h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.about p,
+.philosophy p {
+  font-size: 1.1em;
+  line-height: 1.8;
+}
+
+/* Tabel Menu */
+.menu {
+  width: 20%;
+}
+.menu table {
+  margin: 10px auto;
+  font-size: 0.2rem;
+  border-collapse: collapse;
+}
+
+#menu th,
+#menu td {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#menu th {
+  background-color: #f8f67496;
+  color: #333;
+}
+
+#menu td {
+  background-color: #fff;
+}
+menu tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #f8f67496;
+  color: #333;
+  border-radius: 10px;
+}
